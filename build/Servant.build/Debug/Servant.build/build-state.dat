@@ -1,0 +1,238 @@
+TServant
+v7
+r0
+t290138290.927781
+cCheck dependencies
+cProcessInfoPlistFile /Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCpResource build/Debug/Servant.app/Contents/Resources/rb_main.rb rb_main.rb
+cCompileXIB /Users/fcoury/Projects/Servant/English.lproj/MainMenu.xib
+cCpResource build/Debug/Servant.app/Contents/Resources/ServantController.rb ServantController.rb
+cCpResource build/Debug/Servant.app/Contents/Resources/TableDelegate.rb TableDelegate.rb
+cCompileC build/Servant.build/Debug/Servant.build/Objects-normal/x86_64/main.o /Users/fcoury/Projects/Servant/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/MacOS/Servant normal x86_64
+cTouch /Users/fcoury/Projects/Servant/build/Debug/Servant.app
+
+N/Developer/SDKs/MacOSX10.5.sdk
+c000000004A49A9E400000000000000EE
+t1246341604
+s238
+
+N/Developer/SDKs/MacOSX10.5.sdk/Library/Frameworks/MacRuby.framework/Headers/MacRuby.h
+c000000004AC6A232000000000000005F
+t1254531634
+s95
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004A769DAB00000000000000EE
+t1249287595
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/MacRuby.framework/Headers/MacRuby.h
+c000000004AC6A232000000000000005F
+t1254531634
+s95
+
+N/Library/Frameworks/MacRuby.framework/MacRuby
+c000000004B9A2E430000000001CEA628
+t1268395587
+s30320168
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c000000004A1F2D63000000000000A5E0
+t1243557219
+s42464
+
+N/Users/fcoury/Projects/Servant/English.lproj/InfoPlist.strings
+c000000004B9AC6F300000000000000C6
+t1268434675
+s198
+
+N/Users/fcoury/Projects/Servant/English.lproj/MainMenu.xib
+c000000004B9AF0500000000000022927
+t1268445264
+s141607
+
+N/Users/fcoury/Projects/Servant/ServantController.rb
+c000000004B9AF0E00000000000000C6C
+t1268445408
+s3180
+
+N/Users/fcoury/Projects/Servant/ServantDelegate.rb
+c000000004B9AE0C90000000000000156
+t1268441289
+s342
+
+N/Users/fcoury/Projects/Servant/TableDelegate.rb
+c000000004B9AF12E000000000000026C
+t1268445486
+s620
+
+N/Users/fcoury/Projects/Servant/build/Debug/Servant.app
+t1268445490
+s102
+
+N/Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/Info.plist
+t1268435075
+s769
+
+N/Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/MacOS/Servant
+t1268435077
+s9992
+
+N/Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/PkgInfo
+t1268435075
+s8
+
+N/Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1268435076
+s198
+
+N/Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/Resources/English.lproj/MainMenu.nib
+t1268445272
+s26597
+
+N/Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/Resources/ServantController.rb
+t1268445411
+s3180
+
+N/Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/Resources/ServantDelegate.rb
+t1268441295
+s342
+
+N/Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/Resources/TableDelegate.rb
+t1268445490
+s620
+
+N/Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/Resources/rb_main.rb
+t1268435075
+s615
+
+N/Users/fcoury/Projects/Servant/build/Servant.build/Debug/Servant.build/Objects-normal/x86_64/Servant.LinkFileList
+c000000004B9AC8830000000000000064
+t1268435075
+s100
+
+N/Users/fcoury/Projects/Servant/build/Servant.build/Debug/Servant.build/Objects-normal/x86_64/main.o
+t1268435076
+s8856
+
+N/Users/fcoury/Projects/Servant/main.m
+c000000004B9AC6F300000000000000F7
+t1268434675
+s247
+i<MacRuby/MacRuby.h>
+
+N/Users/fcoury/Projects/Servant/rb_main.rb
+c000000004B9AC6F30000000000000267
+t1268434675
+s615
+
+NInfo.plist
+c000000004B9AC6F30000000000000344
+t1268434675
+s836
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies290138290#290138290#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/Servant.build/Debug/Servant.build/Objects-normal/x86_64/main.o /Users/fcoury/Projects/Servant/main.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s290127876.154644
+e290127876.843560
+r1
+xCompileC
+xbuild/Servant.build/Debug/Servant.build/Objects-normal/x86_64/main.o
+x/Users/fcoury/Projects/Servant/main.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/fcoury/Projects/Servant/main.m290127876#290127876#0(0"0(0#0#37"/Users/fcoury/Projects/Servant/main.m4300885448#901"    cd /Users/fcoury/Projects/Servant    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fobjc-gc-only -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/fcoury/Projects/Servant/build/Servant.build/Debug/Servant.build/Servant.hmap -F/Users/fcoury/Projects/Servant/build/Debug -F/Users/fcoury/Projects/Servant/build/Debug -I/Users/fcoury/Projects/Servant/build/Debug/include -I/Users/fcoury/Projects/Servant/build/Servant.build/Debug/Servant.build/DerivedSources/x86_64 -I/Users/fcoury/Projects/Servant/build/Servant.build/Debug/Servant.build/DerivedSources -c /Users/fcoury/Projects/Servant/main.m -o /Users/fcoury/Projects/Servant/build/Servant.build/Debug/Servant.build/Objects-normal/x86_64/main.o0#
+
+CCompileXIB /Users/fcoury/Projects/Servant/English.lproj/MainMenu.xib
+s290138072.263954
+e290138072.616174
+r1
+xCompileXIB
+x/Users/fcoury/Projects/Servant/English.lproj/MainMenu.xib
+o/* com.apple.ibtool.document.warnings */
+o/Users/fcoury/Projects/Servant/English.lproj/MainMenu.xib:410: warning: "Hidden" option will be ignored on Mac OS X versions prior to 10.3.
+o/Users/fcoury/Projects/Servant/English.lproj/MainMenu.xib:409: warning: The "Automatically Hide Scrollers" option will be ignored on Mac OS X versions prior to 10.3.
+o/Users/fcoury/Projects/Servant/English.lproj/MainMenu.xib:390: warning: Image scaling is not supported on Mac OS X versions prior to 10.5.
+o/Users/fcoury/Projects/Servant/English.lproj/MainMenu.xib:411: warning: "Hidden" option will be ignored on Mac OS X versions prior to 10.3.
+o/Users/fcoury/Projects/Servant/English.lproj/MainMenu.xib:412: warning: NSTableView's "Use alternating row background" option will be ignored on Mac OS X versions prior to 10.3.
+lSLF07#2@37"CompileXIB English.lproj/MainMenu.xib290138072#290138072#0(804"/* com.apple.ibtool.document.warnings *//Users/fcoury/Projects/Servant/English.lproj/MainMenu.xib:410: warning: "Hidden" option will be ignored on Mac OS X versions prior to 10.3./Users/fcoury/Projects/Servant/English.lproj/MainMenu.xib:409: warning: The "Automatically Hide Scrollers" option will be ignored on Mac OS X versions prior to 10.3./Users/fcoury/Projects/Servant/English.lproj/MainMenu.xib:390: warning: Image scaling is not supported on Mac OS X versions prior to 10.5./Users/fcoury/Projects/Servant/English.lproj/MainMenu.xib:411: warning: "Hidden" option will be ignored on Mac OS X versions prior to 10.3./Users/fcoury/Projects/Servant/English.lproj/MainMenu.xib:412: warning: NSTableView's "Use alternating row background" option will be ignored on Mac OS X versions prior to 10.3.5(22@67""Hidden" option will be ignored on Mac OS X versions prior to 10.3.290138072#18446744073709551615#0#0(6@57"/Users/fcoury/Projects/Servant/English.lproj/MainMenu.xib290138064#410#0#410#0#0"0(22@93"The "Automatically Hide Scrollers" option will be ignored on Mac OS X versions prior to 10.3.290138072#18446744073709551615#0#0(6@57"/Users/fcoury/Projects/Servant/English.lproj/MainMenu.xib290138064#409#0#409#0#0"0(22@66"Image scaling is not supported on Mac OS X versions prior to 10.5.290138072#18446744073709551615#0#0(6@57"/Users/fcoury/Projects/Servant/English.lproj/MainMenu.xib290138064#390#0#390#0#0"0(22@67""Hidden" option will be ignored on Mac OS X versions prior to 10.3.290138072#18446744073709551615#0#0(6@57"/Users/fcoury/Projects/Servant/English.lproj/MainMenu.xib290138064#411#0#411#0#0"0(22@105"NSTableView's "Use alternating row background" option will be ignored on Mac OS X versions prior to 10.3.290138072#18446744073709551615#0#0(6@57"/Users/fcoury/Projects/Servant/English.lproj/MainMenu.xib290138064#412#0#412#0#0"0(0#0#57"/Users/fcoury/Projects/Servant/English.lproj/MainMenu.xib4300885448#303"    cd /Users/fcoury/Projects/Servant    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/Resources/English.lproj/MainMenu.nib /Users/fcoury/Projects/Servant/English.lproj/MainMenu.xib0#
+
+CCopyStringsFile /Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s290127875.846226
+e290127876.087535
+r1
+xCopyStringsFile
+x/Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings290127875#290127876#0(0"0(0#0#62"/Users/fcoury/Projects/Servant/English.lproj/InfoPlist.strings4300885448#350"    cd /Users/fcoury/Projects/Servant    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/Servant.app/Contents/Resources/ServantController.rb ServantController.rb
+s290138211.853686
+e290138211.870665
+r1
+xCpResource
+xbuild/Debug/Servant.app/Contents/Resources/ServantController.rb
+xServantController.rb
+lSLF07#2@25"Copy ServantController.rb290138211#290138211#0(0"0(0#0#51"/Users/fcoury/Projects/Servant/ServantController.rb4300885448#312"    cd /Users/fcoury/Projects/Servant    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/fcoury/Projects/Servant/ServantController.rb /Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/Resources0#
+
+CCpResource build/Debug/Servant.app/Contents/Resources/ServantDelegate.rb ServantDelegate.rb
+s290134095.383008
+e290134095.409282
+r1
+xCpResource
+xbuild/Debug/Servant.app/Contents/Resources/ServantDelegate.rb
+xServantDelegate.rb
+lSLF07#2@23"Copy ServantDelegate.rb290134095#290134095#0(0"0(0#0#49"/Users/fcoury/Projects/Servant/ServantDelegate.rb4300885448#310"    cd /Users/fcoury/Projects/Servant    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/fcoury/Projects/Servant/ServantDelegate.rb /Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/Resources0#
+
+CCpResource build/Debug/Servant.app/Contents/Resources/TableDelegate.rb TableDelegate.rb
+s290138290.915736
+e290138290.924911
+r1
+xCpResource
+xbuild/Debug/Servant.app/Contents/Resources/TableDelegate.rb
+xTableDelegate.rb
+lSLF07#2@21"Copy TableDelegate.rb290138290#290138290#0(0"0(0#0#47"/Users/fcoury/Projects/Servant/TableDelegate.rb4300885448#308"    cd /Users/fcoury/Projects/Servant    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/fcoury/Projects/Servant/TableDelegate.rb /Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/Resources0#
+
+CCpResource build/Debug/Servant.app/Contents/Resources/rb_main.rb rb_main.rb
+s290127875.856806
+e290127875.890297
+r1
+xCpResource
+xbuild/Debug/Servant.app/Contents/Resources/rb_main.rb
+xrb_main.rb
+lSLF07#2@15"Copy rb_main.rb290127875#290127875#0(0"0(0#0#41"/Users/fcoury/Projects/Servant/rb_main.rb4300885448#302"    cd /Users/fcoury/Projects/Servant    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Users/fcoury/Projects/Servant/rb_main.rb /Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/Resources0#
+
+CLd /Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/MacOS/Servant normal x86_64
+s290127876.843632
+e290127877.266398
+r1
+xLd
+x/Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/MacOS/Servant
+xnormal
+xx86_64
+lSLF07#2@82"Link /Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/MacOS/Servant290127876#290127877#0(0"0(0#0#0"4300885448#566"    cd /Users/fcoury/Projects/Servant    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/fcoury/Projects/Servant/build/Debug -F/Users/fcoury/Projects/Servant/build/Debug -F/Users/fcoury/Projects/Servant/build/Debug -filelist /Users/fcoury/Projects/Servant/build/Servant.build/Debug/Servant.build/Objects-normal/x86_64/Servant.LinkFileList -mmacosx-version-min=10.6 -framework Cocoa -framework MacRuby -o /Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/MacOS/Servant0#
+
+CProcessInfoPlistFile /Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/Info.plist Info.plist
+s290127875.830359
+e290127875.845419
+r1
+xProcessInfoPlistFile
+x/Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist290127875#290127875#0(0"0(0#0#41"/Users/fcoury/Projects/Servant/Info.plist12948347152105568#278"    cd /Users/fcoury/Projects/Servant    builtin-infoPlistUtility Info.plist -genpkginfo /Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/fcoury/Projects/Servant/build/Debug/Servant.app/Contents/Info.plist0#
+
+CTouch /Users/fcoury/Projects/Servant/build/Debug/Servant.app
+s290138290.925115
+e290138290.927743
+r1
+xTouch
+x/Users/fcoury/Projects/Servant/build/Debug/Servant.app
+lSLF07#2@60"Touch /Users/fcoury/Projects/Servant/build/Debug/Servant.app290138290#290138290#0(0"0(0#0#0"4300885448#115"    cd /Users/fcoury/Projects/Servant    /usr/bin/touch -c /Users/fcoury/Projects/Servant/build/Debug/Servant.app0#
+
