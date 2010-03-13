@@ -14,6 +14,9 @@ class ServantController < NSWindowController
 	# table view
 	attr_accessor :table_view
 	
+	# progress indicator
+	attr_accessor :spinner
+	
 	# server list
 	attr_accessor :servers
 	
@@ -25,13 +28,9 @@ class ServantController < NSWindowController
 	end
 	
 	def applicationDidFinishLaunching(notification)
-		NSLog "Notification: #{notification.inspect}"
+		#NSLog "Notification: #{notification.inspect}"
 	end
 
-	def textDidChange(notification)
-		NSLog "Notification: #{notification.inspect}"
-	end
-	
 	def awakeFromNib
 		@servers = {}
 		@server_list = {}
@@ -48,31 +47,46 @@ class ServantController < NSWindowController
 		end
 		
 		@servers = @server_list
-		NSLog "Populated @server_list = #{@server_list.inspect}"
 	end
 	
-	def button_clicked(sender)
+	def cancelClicked(sender)
+		NSApplication.sharedApplication.terminate(sender)
+	end
+	
+	def goClicked(sender)
+		key  = @servers.first.first
+		conn = @server_list[key][:command]
+		
+		host, port = conn.split(':')
+		port = 22 unless port
+
+		command = <<-COMMAND
+tell application "Terminal"
+	activate
+	do script "ssh -p #{port} #{host}" in front window
+end tell
+COMMAND
+
+		as = NSAppleScript.alloc.initWithSource(command)
+		as.executeAndReturnError(nil)
+		
+		cancelClicked(sender)
+	end
+	
+	def filter
 		selected = filter_and_rank_by(@server_list.keys, @input.stringValue).compact
-		NSLog "Selected servers by rank: #{selected.inspect}"
 		
 		if selected and name = selected.first
-			NSLog "Name: #{name.inspect}"
 			server = @server_list[name]
-			NSLog "Selected server (for label): #{selected.inspect}"
 			
 			@label.stringValue = "#{server[:category]} > #{server[:name]}"
-			@servers = @server_list.select { |s| NSLog "Server: #{s.inspect} => #{selected.include?(s)}"; selected.include? s }
-			NSLog "@servers => #{@servers.inspect}"
+			@servers = @server_list.select { |s| selected.include? s }
 		else
 			@label.stringValue = "--- No Match ---"
 			@servers = {}
 		end
 		
 		table_view.reloadData
-	end
-	
-	def textDidChange(notification)
-		puts notification.inspect
 	end
 	
 	private
@@ -116,7 +130,6 @@ class ServantController < NSWindowController
 			end
 		end
 
-		puts score_match_pairs.inspect
 		score_match_pairs.map {|a| a.last }
 	end
 

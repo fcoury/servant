@@ -7,9 +7,9 @@
 	<key>CFBundleExecutable</key>
 	<string>${EXECUTABLE_NAME}</string>
 	<key>CFBundleIconFile</key>
-	<string></string>
+	<string>APPL.icns</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.yourcompany.Servant</string>
+	<string>com.webbynode.Servant</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>

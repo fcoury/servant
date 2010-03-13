@@ -13,9 +13,6 @@ class TableDelegate
 	end
 	
 	def tableView(tableView, objectValueForTableColumn:column, row:row)
-		NSLog "Asked for row: #{row} column: #{column}"
-		NSLog "			 Servers: #{parent.servers.inspect}"
-		NSLog "			   Count: #{parent.servers.keys.length}"
 		if row <= parent.servers.keys.length - 1
 			key = parent.servers.keys[row]
 			return parent.servers[key][column.identifier.to_sym]
