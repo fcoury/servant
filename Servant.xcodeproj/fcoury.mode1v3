@@ -309,7 +309,7 @@
 							<real>283</real>
 						</array>
 						<key>RubberWindowFrame</key>
-						<string>966 264 1584 1066 0 0 2560 1418 </string>
+						<string>966 266 1584 1066 0 0 2560 1418 </string>
 					</dict>
 					<key>Module</key>
 					<string>PBXSmartGroupTreeModule</string>
@@ -339,7 +339,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>564B1409114B5DE700BAEE76</string>
+										<string>564B1413114B5EF500BAEE76</string>
 										<key>history</key>
 										<array>
 											<string>56D2AFDE114B3FD000873E64</string>
@@ -361,7 +361,7 @@
 								<key>Frame</key>
 								<string>{{0, 0}, {1279, 814}}</string>
 								<key>RubberWindowFrame</key>
-								<string>966 264 1584 1066 0 0 2560 1418 </string>
+								<string>966 266 1584 1066 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
@@ -381,7 +381,7 @@
 								<key>Frame</key>
 								<string>{{0, 819}, {1279, 206}}</string>
 								<key>RubberWindowFrame</key>
-								<string>966 264 1584 1066 0 0 2560 1418 </string>
+								<string>966 266 1584 1066 0 0 2560 1418 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
@@ -545,7 +545,6 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>564B140A114B5DE700BAEE76</string>
 		<string>564B12B0114B49DE00BAEE76</string>
 		<string>564B12B1114B49DE00BAEE76</string>
 		<string>1CD10A99069EF8BA00B06720</string>
@@ -554,7 +553,7 @@
 		<string>/Users/fcoury/Projects/servant/Servant.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
-	<string>966 264 1584 1066 0 0 2560 1418 </string>
+	<string>966 266 1584 1066 0 0 2560 1418 </string>
 	<key>WindowToolsV3</key>
 	<array>
 		<dict>
