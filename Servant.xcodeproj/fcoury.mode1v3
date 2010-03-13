@@ -285,8 +285,8 @@
 							<key>PBXSmartGroupTreeModuleOutlineStateSelectionKey</key>
 							<array>
 								<array>
-									<integer>34</integer>
-									<integer>22</integer>
+									<integer>9</integer>
+									<integer>0</integer>
 								</array>
 							</array>
 							<key>PBXSmartGroupTreeModuleOutlineStateVisibleRectKey</key>
@@ -339,7 +339,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>564B1413114B5EF500BAEE76</string>
+										<string>564B1419114B5F9900BAEE76</string>
 										<key>history</key>
 										<array>
 											<string>56D2AFDE114B3FD000873E64</string>
@@ -548,8 +548,8 @@
 		<string>564B12B0114B49DE00BAEE76</string>
 		<string>564B12B1114B49DE00BAEE76</string>
 		<string>1CD10A99069EF8BA00B06720</string>
-		<string>1C78EAAD065D492600B07095</string>
 		<string>56E4CDC1114AFE7600EF20A0</string>
+		<string>1C78EAAD065D492600B07095</string>
 		<string>/Users/fcoury/Projects/servant/Servant.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
@@ -645,7 +645,7 @@
 			<key>WindowToolGUID</key>
 			<string>56E4CDC1114AFE7600EF20A0</string>
 			<key>WindowToolIsVisible</key>
-			<true/>
+			<false/>
 		</dict>
 		<dict>
 			<key>FirstTimeWindowDisplayed</key>

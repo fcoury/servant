@@ -59,7 +59,6 @@
 		4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 4DE339F60D74FCDD00ADB6EE /* rb_main.rb */; };
 		56097A8A114B1B7900A70887 /* TableDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 56097A89114B1B7900A70887 /* TableDelegate.rb */; };
 		56097B2B114B29BC00A70887 /* ServerInputTextField.rb in Resources */ = {isa = PBXBuildFile; fileRef = 56097B2A114B29BC00A70887 /* ServerInputTextField.rb */; };
-		564B120F114B40A900BAEE76 /* imac.png in Resources */ = {isa = PBXBuildFile; fileRef = 564B120E114B40A900BAEE76 /* imac.png */; };
 		564B123E114B42E000BAEE76 /* APPL.icns in Resources */ = {isa = PBXBuildFile; fileRef = 564B123D114B42E000BAEE76 /* APPL.icns */; };
 		564B13FF114B5BD000BAEE76 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4DE3BE130D8651D900ECA448 /* MacRuby.framework */; };
 		56E4CDCA114B005400EF20A0 /* ServantController.rb in Resources */ = {isa = PBXBuildFile; fileRef = 56E4CDC9114B005400EF20A0 /* ServantController.rb */; };
@@ -104,7 +103,6 @@
 		4DE3BE130D8651D900ECA448 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = /Library/Frameworks/MacRuby.framework; sourceTree = "<absolute>"; };
 		56097A89114B1B7900A70887 /* TableDelegate.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = TableDelegate.rb; sourceTree = "<group>"; };
 		56097B2A114B29BC00A70887 /* ServerInputTextField.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ServerInputTextField.rb; sourceTree = "<group>"; };
-		564B120E114B40A900BAEE76 /* imac.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = imac.png; sourceTree = "<group>"; };
 		564B123D114B42E000BAEE76 /* APPL.icns */ = {isa = PBXFileReference; lastKnownFileType = image.icns; name = APPL.icns; path = resources/APPL.icns; sourceTree = "<group>"; };
 		56E4CDC9114B005400EF20A0 /* ServantController.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ServantController.rb; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -198,7 +196,6 @@
 				564B123D114B42E000BAEE76 /* APPL.icns */,
 				2BFA9DA510CDF852007972A1 /* MainMenu.xib */,
 				8D1107310486CEB800E47090 /* Info.plist */,
-				564B120E114B40A900BAEE76 /* imac.png */,
 				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
 			);
 			name = Resources;
@@ -267,7 +264,6 @@
 				56E4CDCA114B005400EF20A0 /* ServantController.rb in Resources */,
 				56097A8A114B1B7900A70887 /* TableDelegate.rb in Resources */,
 				56097B2B114B29BC00A70887 /* ServerInputTextField.rb in Resources */,
-				564B120F114B40A900BAEE76 /* imac.png in Resources */,
 				564B123E114B42E000BAEE76 /* APPL.icns in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
