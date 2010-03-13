@@ -5,6 +5,9 @@
 # Copyright 2010 FelipeCoury.com. All rights reserved.
 
 class ServantController < NSWindowController
+	# the app window
+	attr_accessor :window
+	
 	# text input
 	attr_accessor :input
 	

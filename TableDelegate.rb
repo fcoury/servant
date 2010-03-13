@@ -9,7 +9,11 @@ class TableDelegate
 	attr_accessor :parent
 	
 	def numberOfRowsInTableView(tableView)
-		parent.servers.keys.count
+		if parent and parent.servers
+			parent.servers.keys.count
+		else
+			0
+		end
 	end
 	
 	def tableView(tableView, objectValueForTableColumn:column, row:row)
